@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <node pkg = "gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
+        <!-- <param name="map_update_interval" value="2.0"/>
+        <param name="maxUrange" value="5.0"/> -->
+        <param name="base_frame" value="chassis"/>
+        <param name="xmin" value="-5.0"/>
+        <param name="ymin" value="-5.0"/>
+        <param name="xmax" value="5.0"/>
+        <param name="ymax" value="5.0"/>
+        <param name="delta" value="0.03"/>
+        <!-- <param name="maxRange" value="6.0"/> -->
+    </node>
+
+
+</launch>
