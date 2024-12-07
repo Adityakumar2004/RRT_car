@@ -16,4 +16,4 @@ this creates an inflated map a map where the collision of the mobile robot with 
 - from RVIZ choose your intial and goal pose and the rrt_final.py displays the trajectory on the rviz. The trajectory is found such that the non holonomic constrained is taken into account.
 
 - this is how the path looks like there are few changes which are needed to avoid multiple loops as can be seen in the image below
-- 
+- ![path given by rrt](images/car_rrt_result.png)
