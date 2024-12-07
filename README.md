@@ -10,7 +10,7 @@
 
 <code>roslaunch custom_navigation gmapping_custom_param.launch</code>
 
-- path of the map obtained needs to be given in the [inflation_layer.py](/custom_navigation/src/scripts/inflation_layer.py)<br>
+- path of the map obtained needs to be given in the ``/custom_navigation/src/scripts/inflation_layer.py``<br>
 this creates an inflated map a map where the collision of the mobile robot with the walls is taken into account by increasing the thickness of the walls with appropriate dimensions specific to the car model
 - pass this map to the rrt_final.py
 - from RVIZ choose your intial and goal pose and the rrt_final.py displays the trajectory on the rviz. The trajectory is found such that the non holonomic constrained is taken into account.
