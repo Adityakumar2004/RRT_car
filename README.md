@@ -5,7 +5,7 @@
 ## how to run
 
 
-- run this command to start the slam algorithm which is from the gmap package of ros-1 noetic <br>
+- run this command to start the SLAM algorithm which is from the gmap package of ros-1 noetic <br>
 
 
 <code>roslaunch custom_navigation gmapping_custom_param.launch</code>
@@ -15,5 +15,6 @@ this creates an inflated map a map where the collision of the mobile robot with 
 - pass this map to the rrt_final.py
 - from RVIZ choose your intial and goal pose and the rrt_final.py displays the trajectory on the rviz. The trajectory is found such that the non holonomic constrained is taken into account.
 
-- this is how the path looks like there are few changes which are needed to avoid multiple loops as can be seen in the image below
-- ![path given by rrt](images/rrt_result.png)
+- this is how the path looks like there are few changes which are yet to be made to avoid multiple loops as can be seen in the image below
+![path given by rrt](images/rrt_result.png)
+
