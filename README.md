@@ -8,4 +8,4 @@
 <code>roslaunch custom_navigation gmapping_custom_param.launch</code>
 
 - path of the map obtained needs to be given in the [inflation_layer.py](/custom_navigation/src/scripts/inflation_layer.py)
-- '/custom_navigation/src/scripts/inflation_layer.py'
+- 'custom_navigation/src/scripts/inflation_layer.py'
